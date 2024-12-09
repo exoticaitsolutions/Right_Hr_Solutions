@@ -146,9 +146,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.yourmailserver.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'your-email@example.com'
-EMAIL_HOST_PASSWORD = 'your-email-password'
-DEFAULT_FROM_EMAIL = 'no-reply@example.com'
+EMAIL_HOST = 'smtp.hostinger.com'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True  
+EMAIL_HOST_USER = 'pythonweb@exoticaitsolutions.com'
+EMAIL_HOST_PASSWORD = 'Webpython@123#'
+DEFAULT_FROM_EMAIL = 'pythonweb@exoticaitsolutions.com'
+
+SITE_URL = 'http://127.0.0.1:8000'
